@@ -18,29 +18,40 @@ body {
 
 /*--------------------ENCABEZADO--------------------*/
 
-
-header nav {
-    display: flex;
-    justify-content: space-between
+span.navbar-toggler-icon{
+    color: white;
 }
 
+h1{
+    color:  rgb(223, 159, 77)
+}
 header nav img {
     width: 150px;
     margin: 5px;
 }
 
-nav {
+.accordion-button{
+    background-color: rgb(223, 159, 77);
+}
+
+.accordion-item{
+    background-color: rgb(223, 159, 77);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: rgb(223, 159, 77) solid 1px;
 }
 
-nav ul {
+.navbar-nav {
     display: inline-block;
     padding-bottom: 5px;
     padding-top: 20px;
 }
 
-nav ul li {
+.nav-item {
     border-radius: 15px;
     background-color: rgb(51, 45, 45);
     margin: 40px;
@@ -54,7 +65,7 @@ nav ul li {
 }
 
 
-nav ul li a {
+.active {
     color: white;
     text-decoration: none;
 }
